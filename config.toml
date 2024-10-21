@@ -9,6 +9,11 @@ build_search_index = false
 
 theme = "after-dark"
 
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
 
 [markdown]
 highlight_code = false
@@ -18,3 +23,9 @@ highlight_code = false
 # Put all your custom variables here
 license = "none" # blog license
 author = "Jerry"
+after_dark_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/about", name = "About"},
+]
+
+after_dark_title = "  "

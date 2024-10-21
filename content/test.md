@@ -1,23 +1,7 @@
 +++
 title = "My first post"
-date = 2019-11-27
+date = 2020-11-27
+summary = "fuck?"
 +++
-
-
-
-``` 
-int foo { 
-
-printf {code} 
-
-}
-```
-
-------
-
-section 2
-
-TODO: 
-- [] item 1
-- [] item 2
-
+<!-- more -->
+Nothing to see here
