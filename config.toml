@@ -16,7 +16,8 @@ taxonomies = [
 ]
 
 [markdown]
-highlight_code = false
+highlight_code = true
+hightlight_theme = "one-dark"
 
 
 [extra]
@@ -28,4 +29,6 @@ after_dark_menu = [
     {url = "$BASE_URL/about", name = "About"},
 ]
 
-after_dark_title = "  "
+after_dark_title = " Jerry's blog "
+latex = true
+codeblock = true
