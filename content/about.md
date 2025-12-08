@@ -10,7 +10,10 @@ I am currently pursuing a PhD in CS @ University of Utah.
 I am interested in low-level computer system research, currently 
 working under [Mars system research group](https://mars-research.github.io/). 
 
-you can contact me at [jerry.zhang@utah.edu](jerry.zhang@utah.edu).
+Info:
 
-you can grab a copy of my [CV](/cv.pdf). 
+Email: [jerry.zhang@utah.edu](jerry.zhang@utah.edu).
+Github: [https://github.com/jerryidk](https://github.com/jerryidk).
+Publication: [google scholar](https://scholar.google.com/citations?user=TpxF7_wAAAAJ)
+CV: [CV](/cv.pdf). 
 
