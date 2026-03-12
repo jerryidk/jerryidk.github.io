@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  
+  
+
+  <title>
+    
+    Cuda security
+    
+</title>
+
+  
+
+  
+  <link rel="stylesheet" href="https://jerryidk.github.io/site.css">
+  
+
+  
+  
+</head>
+
+<body class="hack dark main container">
+  
+    
+        
+  
+  <header class="nav-header">
+    <nav itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar">
+      <div class="nav-links">
+        
+        <a itemprop="url"
+          class=""
+          href="https://jerryidk.github.io/">
+          <span itemprop="name">Home</span></a>
+        
+        <a itemprop="url"
+          class=""
+          href="https://jerryidk.github.io//about">
+          <span itemprop="name">About</span></a>
+        
+        <a itemprop="url"
+          class=""
+          href="https://jerryidk.github.io//tags">
+          <span itemprop="name">Tags</span></a>
+        
+      </div>
+    </nav>
+    
+
+  </header>
+  
+  
+    
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="headline">Cuda security</h1>
+        <span class="muted">
+    <svg class="icon i-clock" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <circle cx="16" cy="16" r="14"/>
+        <path d="M16 8 L16 16 20 20"/>
+    </svg>
+    <span>1 minute read</span>
+    <svg class="icon i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+
+    Published: 2026-01-09
+</span>
+    </header>
+    <div itemprop="articleBody">
+      <p>Some notes on cuda</p>
+<span id="continue-reading"></span>
+<p>A promising area is to understand security vulnerabilities in CUDA applications. This includes understanding how to secure CUDA applications against common security threats such as buffer overflows, memory leaks, and race conditions. Additionally, it is important to understand how to secure CUDA applications against malicious actors who may attempt to exploit vulnerabilities in the application.</p>
+<p>Two major security area is GPU kernel boundary between host and device. GPU kernel is inheritantly unsafe, an example: </p>
+<p>A natural solution is to use formal verification tool such VerCos. There is also another group attempt to use LLM to automatically generate gpu kernel while using formal verification tool to verify correctness of generated program.</p>
+<p>However, beyond just the kernel, interaction between host and device also have security vulunabilities.</p>
+<ul>
+<li>Rust support for GPU ecosystem is <a href="https://rust-gpu.github.io/blog/2025/07/25/rust-on-every-gpu">maturing</a></li>
+<li></li>
+</ul>
+<h2 id="rust-vs-c">Rust vs C++</h2>
+<p>Compare RustCuda to C++ same kernel and host program computing add.</p>
+
+    </div>
+
+    
+        <footer>
+            <hr>
+            <p>
+                
+                    Published by Jerry
+                
+                
+                
+                    
+                    tagged
+                    
+                        <a href="https://jerryidk.github.io/tags/none/">none</a>
+                        
+                    
+                
+            </p>
+            
+            
+        </footer>
+    
+</article>
+
+
+
+  <!-- optional scripts -->
+  
+  
+  <script src="https://jerryidk.github.io/js/codeblock.js"></script>
+  
+
+  
+<!-- MathJax script for rendering LaTeX math equations -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"],
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"],
+      ],
+    },
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+
+  
+
+  
+</body>
+
+</html>
