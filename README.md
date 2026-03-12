@@ -1,12 +1,11 @@
 
+Note: Use `zola` binary that is shipped with this dir.
 
-served using zola 0.17....
-so, pushed the single binary to avoid problems in the future. 
+useful commands
+- `zola serve` start a local host server
+- `new-article.sh NAME` will create a new templates
 
-
-Command
-
-start a local host server
-`zola serve` 
-
+Import file directory
+- `content/` consists all the write ups
+- `themes/` consists style related logic
 
